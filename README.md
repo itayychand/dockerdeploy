@@ -18,12 +18,12 @@ The docker image is auto built at [https://registry.hub.docker.com/u/yeasy/simpl
 
 ## In Dockerfile
 ```sh
-FROM yeasy/simple-web:latest
+FROM tayychand/dockerdeploy:latest
 ```
 
 ## Local Run
 ```sh
-$ docker run --rm -it -p 80:80 yeasy/simple-web:latest
+$ docker run --rm -it -p 80:80 itayychand/dockerdeploy:latest
 ```
 
 # Which image is based on?
